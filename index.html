@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>Advanced C2-C3 Fractal Model — Premium Market Structure Indicator</title>
+  <meta name="description"
+    content="Plot real-time HTF candle data, C2 liquidity sweeps, C3 retest zones, imbalances, and CISD reversals directly on your charts. Bridge the macro-micro gap with institutional precision.">
+  <meta name="keywords"
+    content="TradingView indicator, Pine Script, market structure, C2 sweep, FVG, Formation Liquidity, SMT divergence, invite-only indicator">
+  <meta name="author" content="Antigravity">
+
+  <!-- OpenGraph Tags -->
+  <meta property="og:title" content="Advanced C2-C3 Fractal Model — Market Structure Tracing">
+  <meta property="og:description"
+    content="Eliminate screen switching. Automate your macro-micro structural analysis with high-fidelity multi-timeframe candle panels and liquidity sweeps.">
+  <meta property="og:type" content="website">
+
+  <!-- Custom Styling sheets -->
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo" id="logoLink">
+        <div class="logo-icon">F</div>
+        <span>Fractal Model</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#features" id="navFeaturesLink">Features</a>
+        <a href="#demo" id="navDemoLink">Interactive Demo</a>
+        <a href="#pricing" id="navPricingLink">Invite Access</a>
+        <a href="#faq" id="navFaqLink">Documentation</a>
+      </nav>
+      <div class="header-cta">
+        <a href="https://www.tradingview.com/script/NwGmiPqo-Advanced-C2-C3-Fractal-Model/" target="_blank"
+          class="btn btn-secondary btn-sm" id="tvScriptBtn">TradingView Script</a>
+        <a href="#pricing" class="btn btn-primary btn-sm" id="navInviteBtn">Get Invite Access</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-layout">
+          <div class="hero-content">
+            <div class="badge" id="heroBadge">
+              <span class="badge-dot"></span>
+              <span>Advanced C2-C3 Fractal Model Pro</span>
+            </div>
+            <h1 id="heroTitle">Unveil the Market's <span>Structural Blueprint</span></h1>
+            <p class="hero-desc" id="heroDescription">
+              Plot real-time HTF candle data, structural liquidity sweep levels, and market imbalances directly onto
+              your execution chart. Eliminate constant multi-screen switching and bridge the macro-micro gap with
+              institutional precision.
+            </p>
+            <div class="hero-ctas">
+              <a href="#pricing" class="btn btn-primary" id="heroGetInviteBtn">Secure License Key</a>
+              <a href="#demo" class="btn btn-secondary" id="heroViewDemoBtn">Interactive Chart Preview</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item" id="statTimeframes">
+                <h3>4+</h3>
+                <p>HTF Panel Horizons</p>
+              </div>
+              <div class="stat-item" id="statLevels">
+                <h3>5+</h3>
+                <p>Liquidity Levels Traced</p>
+              </div>
+              <div class="stat-item" id="statFormat">
+                <h3>v6</h3>
+                <p>Pure Pine Script Code</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- High-Resolution Overview Chart Showcase -->
+          <div class="hero-image-showcase">
+            <div class="showcase-glow"></div>
+            <div class="glass-card image-wrapper" id="heroImageWrapper">
+              <img src="overview.png" alt="Advanced C2-C3 Fractal Model Indicator Feature Overview Chart"
+                id="heroOverviewImg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Grid Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Core Architectural Pillars</h2>
+          <p>This is not just another basic overlay indicator. It is a complete structural rendering engine that maps
+            HTF boundaries onto LTF coordinates in real time.</p>
+        </div>
+        <div class="features-grid">
+
+          <!-- Card 1 -->
+          <div class="glass-card feature-card" id="featureMtf">
+            <div class="feature-icon-wrapper">📊</div>
+            <h3>MTF Candle Panels</h3>
+            <p>View up to four different higher timeframes side-by-side on your main execution chart. It dynamically
+              filters duplicate setups and aligns candle close countdown timers.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="glass-card feature-card bull-style" id="featureC2">
+            <div class="feature-icon-wrapper">📈</div>
+            <h3>C2 (Sweep) & C3 (Mitigation)</h3>
+            <p>Automatically flags structural wicks that sweep previous highs or lows and close back in-range. Computes
+              midpoint values and maps premium retest zones.</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="glass-card feature-card bear-style" id="featureFvg">
+            <div class="feature-icon-wrapper">🕯️</div>
+            <h3>Fair Value Gaps (FVG)</h3>
+            <p>Instantly highlights bullish and bearish imbalances on your chart, pinpointing price mitigation targets
+              and potential high-probability entries.</p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="glass-card feature-card" id="featureFl">
+            <div class="feature-icon-wrapper">💲</div>
+            <h3>Formation Liquidity Target Lines</h3>
+            <p>Scans backwards to locate historical liquidity peaks and marks them with ending <strong>$$</strong>
+              labels. Once swept, they freeze to preserve historical data.</p>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="glass-card feature-card bull-style" id="featureCisd">
+            <div class="feature-icon-wrapper">⚡</div>
+            <h3>CISD & Fibonacci Projections</h3>
+            <p>Detects a Change in State of Delivery. Set to C2 CISD or Regular CISD to track orderblock projections and
+              target extensions directly on your dashboard.</p>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="glass-card feature-card bear-style" id="featureSmt">
+            <div class="feature-icon-wrapper">🤝</div>
+            <h3>Smart Money Tool (SMT)</h3>
+            <p>Tracks price correlation divergence across EURUSD/GBPUSD/DXY or BTCUSD/ETHUSD in real-time, pointing out
+              market manipulation at key sweep peaks.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Simulator Section -->
+    <section class="simulator" id="demo">
+      <div class="container">
+        <div class="section-header">
+          <h2>Interactive Chart Simulator</h2>
+          <p>Click any feature below to see a real chart screenshot showing exactly how each module renders on your
+            TradingView chart.</p>
+        </div>
+
+        <div class="glass-card sim-showcase-card">
+
+          <!-- Tab Navigation -->
+          <div class="sim-tabs" id="simTabs">
+            <button class="sim-tab active" data-tab="0" id="simTab0">
+              <span class="sim-tab-num">01</span>
+              <span>MTF Candle</span>
+            </button>
+            <button class="sim-tab" data-tab="1" id="simTab1">
+              <span class="sim-tab-num">02</span>
+              <span>HTF Candle</span>
+            </button>
+            <button class="sim-tab" data-tab="2" id="simTab2">
+              <span class="sim-tab-num">03</span>
+              <span>C2 Sweep &amp; C3 Zone</span>
+            </button>
+            <button class="sim-tab" data-tab="3" id="simTab3">
+              <span class="sim-tab-num">04</span>
+              <span>CISD</span>
+            </button>
+            <button class="sim-tab" data-tab="4" id="simTab4">
+              <span class="sim-tab-num">05</span>
+              <span>Liquidity Target</span>
+            </button>
+            <button class="sim-tab" data-tab="5" id="simTab5">
+              <span class="sim-tab-num">06</span>
+              <span>FVG</span>
+            </button>
+            <button class="sim-tab" data-tab="6" id="simTab6">
+              <span class="sim-tab-num">07</span>
+              <span>Fib Level</span>
+            </button>
+            <button class="sim-tab" data-tab="7" id="simTab7">
+              <span class="sim-tab-num">08</span>
+              <span>SMT</span>
+            </button>
+            <button class="sim-tab" data-tab="8" id="simTab8">
+              <span class="sim-tab-num">09</span>
+              <span>Info Table</span>
+            </button>
+          </div>
+
+          <!-- Image Viewer -->
+          <div class="sim-image-viewer" id="simImageViewer">
+
+            <!-- Active Progress Bar -->
+            <div class="sim-progress-bar" id="simProgressBar">
+              <div class="sim-progress-fill" id="simProgressFill"></div>
+            </div>
+
+            <!-- Slides -->
+            <div class="sim-slide active" id="simSlide0">
+              <img src="1_MTF_Candle.png" alt="MTF Candle Panel - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">01 / 09</span>
+                <h3>MTF Candle Panels</h3>
+                <p>View up to four different higher timeframe candles side-by-side on your execution chart,
+                  automatically sorted by timeframe duration and deduplicated.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide1">
+              <img src="2_HTF_Candle.png" alt="HTF Candle - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">02 / 09</span>
+                <h3>HTF Candle Boundaries</h3>
+                <p>Full-precision HTF boundary lines render directly on the LTF chart. Each boundary shows real OHLC
+                  from the higher timeframe without any manual input.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide2">
+              <img src="3_C2_Sweep_C3_zone.png" alt="C2 Sweep and C3 Zone - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">03 / 09</span>
+                <h3>C2 Sweep &amp; C3 Mitigation Zone</h3>
+                <p>Structural liquidity sweeps are flagged automatically. The C3 premium/discount zone and EQ
+                  midpoint projection are drawn in real time.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide3">
+              <img src="4_CISD.png" alt="CISD - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">04 / 09</span>
+                <h3>CISD — Change in State of Delivery</h3>
+                <p>Detects when price closes beyond the C2 sweep level, signaling a structural delivery reversal.
+                  Supports both C2-bounded and Regular (3-candle extended) modes.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide4">
+              <img src="5_Liquidity_Target.png" alt="Liquidity Target - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">05 / 09</span>
+                <h3>Formation Liquidity Targets</h3>
+                <p>Scans back up to 10 HTF candles to locate unswept wick liquidity peaks and draw horizontal target
+                  lines with <strong>$$</strong> labels. Lines freeze once swept.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide5">
+              <img src="6_FVG.png" alt="FVG - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">06 / 09</span>
+                <h3>Fair Value Gaps (FVG)</h3>
+                <p>Instantly highlights bullish and bearish institutional price imbalances on your chart. Fully
+                  customizable with color, border, and extension settings.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide6">
+              <img src="7_Projection.png" alt="Fib Level Projections - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">07 / 09</span>
+                <h3>Fibonacci Projections</h3>
+                <p>CISD-confirmed setups automatically project Fibonacci extension levels from the orderblock origin,
+                  giving precise macro target zones.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide7">
+              <img src="8_SMT.png" alt="SMT Divergence - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">08 / 09</span>
+                <h3>Smart Money Tool (SMT) Divergence</h3>
+                <p>Tracks real-time price divergence between correlated assets like EURUSD/GBPUSD or BTC/ETH to
+                  detect institutional manipulation at key sweep peaks.</p>
+              </div>
+            </div>
+
+            <div class="sim-slide" id="simSlide8">
+              <img src="9_Info_Table.png" alt="Info Table - Advanced C2-C3 Fractal Model" loading="lazy">
+              <div class="sim-caption">
+                <span class="sim-caption-num">09 / 09</span>
+                <h3>Info Table Dashboard</h3>
+                <p>A compact on-chart information panel showing current timeframe mode, HTF pair, bias filter status,
+                  and model validation state at a glance.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Dot Navigation -->
+          <div class="sim-dots" id="simDots">
+            <button class="sim-dot active" data-tab="0" id="simDot0" aria-label="MTF Candle"></button>
+            <button class="sim-dot" data-tab="1" id="simDot1" aria-label="HTF Candle"></button>
+            <button class="sim-dot" data-tab="2" id="simDot2" aria-label="C2 Sweep"></button>
+            <button class="sim-dot" data-tab="3" id="simDot3" aria-label="CISD"></button>
+            <button class="sim-dot" data-tab="4" id="simDot4" aria-label="Liquidity Target"></button>
+            <button class="sim-dot" data-tab="5" id="simDot5" aria-label="FVG"></button>
+            <button class="sim-dot" data-tab="6" id="simDot6" aria-label="Fib Level"></button>
+            <button class="sim-dot" data-tab="7" id="simDot7" aria-label="SMT"></button>
+            <button class="sim-dot" data-tab="8" id="simDot8" aria-label="Info Table"></button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing / Access Section -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>Secure Invite-Only Access</h2>
+          <p>We restrict license key distribution to preserve technical performance and avoid institutional alert
+            clutter. Select a plan below to secure your access.</p>
+        </div>
+
+        <div class="pricing-cards">
+
+          <!-- Card 1: 1 Month Pass -->
+          <div class="glass-card price-card" id="pricingMonthly">
+            <div class="price-header">
+              <h3>1 Month Pass</h3>
+              <p>Ideal for validating features and testing setups</p>
+            </div>
+            <div class="price-amount">
+              <span class="currency"
+                style="font-size: 1.4rem; text-decoration: line-through; color: var(--text-muted); font-weight: 500; margin-right: 0.5rem; vertical-align: top; position: relative; top: 0.2rem;">$30</span>
+              <span class="currency">$</span>
+              <span class="value">25</span>
+              <span class="period">/ month</span>
+            </div>
+            <ul class="price-features">
+              <li>✔️ C2-C3 Reversal & Mitigation engine</li>
+              <li>✔️ Side-by-side MTF Candlestick panels</li>
+              <li>✔️ Formation Liquidity $$ tracing</li>
+              <li>✔️ Custom CISD levels & projections</li>
+              <li>✔️ Free v6 script updates</li>
+              <li>❌ Private Discord support</li>
+            </ul>
+            <button class="btn btn-secondary btn-buy" data-plan="1 Month Pass" data-price="$25"
+              id="buyMonthlyBtn">Request Invite Key</button>
+          </div>
+
+          <!-- Card 2: 3 Month Pass (Featured) -->
+          <div class="glass-card price-card featured" id="pricingThreeMonth">
+            <div class="card-badge">Popular</div>
+            <div class="price-header">
+              <h3>3 Month Pass</h3>
+              <p>Our most popular option for dedicated traders</p>
+            </div>
+            <div class="price-amount">
+              <span class="currency"
+                style="font-size: 1.4rem; text-decoration: line-through; color: var(--text-muted); font-weight: 500; margin-right: 0.5rem; vertical-align: top; position: relative; top: 0.2rem;">$90</span>
+              <span class="currency">$</span>
+              <span class="value">60</span>
+              <span class="period">/ 3 months</span>
+              <div style="font-size: 0.85rem; color: var(--bullish-green); font-weight: 600; margin-top: 0.25rem;">(Save
+                33% — $20 / month)</div>
+            </div>
+            <ul class="price-features">
+              <li>✔️ C2-C3 Reversal & Mitigation engine</li>
+              <li>✔️ Side-by-side MTF Candlestick panels</li>
+              <li>✔️ Formation Liquidity $$ tracing</li>
+              <li>✔️ Custom CISD levels & projections</li>
+              <li>✔️ Free v6 script updates</li>
+              <li>✔️ Private Discord setup support channel</li>
+            </ul>
+            <button class="btn btn-primary btn-buy" data-plan="3 Month Pass" data-price="$60" id="buyThreeMonthBtn">Get
+              3-Month Access</button>
+          </div>
+
+          <!-- Card 3: Yearly Pass -->
+          <div class="glass-card price-card" id="pricingYearly">
+            <div class="price-header">
+              <h3>Yearly Pass</h3>
+              <p>For professional traders requiring long-term value</p>
+            </div>
+            <div class="price-amount">
+              <span class="currency"
+                style="font-size: 1.4rem; text-decoration: line-through; color: var(--text-muted); font-weight: 500; margin-right: 0.5rem; vertical-align: top; position: relative; top: 0.2rem;">$360</span>
+              <span class="currency">$</span>
+              <span class="value">216</span>
+              <span class="period">/ year</span>
+              <div style="font-size: 0.85rem; color: var(--bullish-green); font-weight: 600; margin-top: 0.25rem;">(Save
+                40% — $18 / month)</div>
+            </div>
+            <ul class="price-features">
+              <li>✔️ C2-C3 Reversal & Mitigation engine</li>
+              <li>✔️ Side-by-side MTF Candlestick panels</li>
+              <li>✔️ Formation Liquidity $$ tracing</li>
+              <li>✔️ Custom CISD levels & projections</li>
+              <li>✔️ Free v6 script updates</li>
+              <li>✔️ Private Discord setup support channel</li>
+              <li>✔️ Prioritized feedback & feature requests</li>
+            </ul>
+            <button class="btn btn-secondary btn-buy" data-plan="Yearly Pass" data-price="$216" id="buyYearlyBtn">Get
+              Yearly Access</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ accordion & Documentation Section -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2>Technical Documentation & FAQ</h2>
+          <p>Get answers to common queries regarding indicators installation, execution rules, and setups logic.</p>
+        </div>
+
+        <div class="faq-list">
+
+          <div class="faq-item" id="faqInstall">
+            <button class="faq-question" id="faqInstallBtn">
+              <h3>How do I load the indicator onto my TradingView charts?</h3>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Once your payment checkout completes and your invitation is approved, we add your TradingView username
+                to the script's invite-only group. In your TradingView chart, go to Indicators -> Invite-only scripts ->
+                Select "Advanced C2-C3 Fractal Model".</p>
+            </div>
+          </div>
+
+          <div class="faq-item" id="faqCisdMode">
+            <button class="faq-question" id="faqCisdModeBtn">
+              <h3>What is the difference between C2 CISD and Regular CISD?</h3>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p><strong>C2 CISD</strong> restricts the Change in State of Delivery validation to be confirmed within
+                the bounds of the C2 candle. <strong>Regular CISD</strong> allows validation to extend into the next 3
+                HTF candles after C2. If a close crossing doesn't form within that extended range, the line freezes at
+                the 3-candle limit and orderblock projections are skipped.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" id="faqTimeframe">
+            <button class="faq-question" id="faqTimeframeBtn">
+              <h3>Which timeframe pairs are recommended?</h3>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>The model performs best with a 15:1 ratio: a 1-minute execution chart paired with 15-minute HTF
+                candles, or a 5-minute execution chart paired with 1-hour HTF candles. Use the "Automatic" settings
+                toggle to let the indicator pair them dynamically based on the current chart TF.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Checkout / Stripe Gateway Modal -->
+  <div class="modal-overlay" id="checkoutModal">
+    <div class="glass-card modal-content" id="checkoutModalContent">
+      <button class="close-modal" id="closeModal" aria-label="Close modal">&times;</button>
+
+      <div class="checkout-title">
+        <h2 id="checkoutTitleText">Secure Invitation Checkout</h2>
+        <p>You are requesting license credentials for the model.</p>
+      </div>
+
+      <div class="checkout-item" id="checkoutItemDetails">
+        <div class="checkout-item-info">
+          <h4 id="checkoutPlanNameText">3 Month Pass</h4>
+          <p>Access including private setup support channel</p>
+        </div>
+        <div class="checkout-item-price" id="checkoutItemPriceText">$60</div>
+      </div>
+
+      <form id="checkoutForm">
+        <div class="form-group">
+          <label for="checkoutEmail">Email Address</label>
+          <input type="email" id="checkoutEmail" class="form-input" placeholder="trader@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="checkoutTvUser">TradingView Username</label>
+          <input type="text" id="checkoutTvUser" class="form-input" placeholder="e.g. tradingwizard" required>
+        </div>
+
+        <!-- Mock Credit Card Section -->
+        <div class="form-group">
+          <label for="checkoutCard">Credit Card Details</label>
+          <input type="text" id="checkoutCard" class="form-input" placeholder="4242 4242 4242 4242" required>
+        </div>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="form-group">
+            <label for="checkoutCardExpiry">Expiry Date</label>
+            <input type="text" id="checkoutCardExpiry" class="form-input" placeholder="MM/YY" required>
+          </div>
+          <div class="form-group">
+            <label for="checkoutCardCvc">CVC Code</label>
+            <input type="text" id="checkoutCardCvc" class="form-input" placeholder="123" required>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary checkout-btn" id="checkoutSubmitBtn">
+          <span class="spinner" id="checkoutSpinner"></span>
+          <span id="checkoutSubmitText">Complete Invitation Process</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo" id="footerLogo">
+            <div class="logo-icon">F</div>
+            <span>Fractal Model</span>
+          </a>
+          <p>Automated, structural multi-timeframe mapping tools designed to improve market read accuracy and execution
+            confidence.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Indicator Info</h4>
+          <ul>
+            <li><a href="#features" id="ftFeaturesLink">Features List</a></li>
+            <li><a href="#demo" id="ftDemoLink">Simulator Demo</a></li>
+            <li><a href="https://www.tradingview.com/script/XdwK9qQQ-Fractal-Model-Pro-TTrades/" target="_blank"
+                id="ftScriptLink">TradingView Page</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Invite Access</h4>
+          <ul>
+            <li><a href="#pricing" id="ftMonthlyLink">1 Month Pass</a></li>
+            <li><a href="#pricing" id="ftThreeMonthLink">3 Month Pass</a></li>
+            <li><a href="#pricing" id="ftYearlyLink">Yearly Pass</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Developer</h4>
+          <ul>
+            <li><a href="https://www.tradingview.com/u/ACFM_Trades/" target="_blank" id="ftAuthorLink">Author
+                Profile</a>
+            </li>
+            <li><a href="#" id="ftSupportLink">Support Center</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Advanced C2-C3 Fractal Model. All rights reserved.</p>
+        <p>Disclaimer: Trading involves high risk. This indicator is for education and analysis purposes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="index.js?v=1.0.1"></script>
+</body>
+
+</html>
